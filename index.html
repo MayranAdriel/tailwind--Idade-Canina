@@ -24,9 +24,9 @@
 
   <body>
     <div class="flex flex-col items-center justify-center w-screen p-screen">
-      <h1 class="text-6xl m-3.5">Calcule a idade do seu melhor amigo!</h1>
+      <h1 class="text-3xl m-3.5 text-center">Calcule a idade do seu melhor amigo!</h1>
 
-      <div class="flex size-1/4 justify-center">
+      <div class="flex size-2/5 justify-center">
         <img
           class="rounded-l-3xl"
           src="./img/cachorro.jpg"
@@ -35,18 +35,19 @@
         <img class="rounded-r-3xl" src="./img/gato.jpg" alt="imagemGato" />
       </div>
 
-      <form class="flex flex-col mt-7">
-        <label
+      <div class="text-center">
+        <form class="flex flex-col mt-7">
+          <label
           >Informe a idade
-          <input
-            type="number"
-            class="border-2 border-black rounded-full text-center"
-            oninput="calculaIdade(this.value)"
-          />
-        </label>
-      </form>
+            <input
+              type="number"
+              class="border-2 border-black rounded-full text-center"
+              oninput="calculaIdade(this.value)"
+            />
+          </label>
+        </form>
 
-      <p class="mt-5 text-3xl"></p>
+        <p class="mt-5 text-2xl">A idade do seu amigo é: <span class="text-red-800"></span></p></div>
     </div>
 
     <script src="js/app.js"></script>

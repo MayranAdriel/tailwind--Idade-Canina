@@ -1,5 +1,5 @@
-let elemento = document.querySelector("p");
+let elemento = document.querySelector("span");
 
 function calculaIdade(idade) {
-  elemento.textContent = `A idade do seu amigo é ${idade * 7} anos`;
+  elemento.textContent = `${idade * 7} anos`;
 }
